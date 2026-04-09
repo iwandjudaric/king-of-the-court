@@ -7,19 +7,46 @@
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/index.css">
 </head>
-<body>
+<body class="homePage">
     <header>
         <a href="index.html"><h1 class="headerText">Padel KingZ</h1></a>
         <nav>
-            <button><a href="#">Bracket</a></button>
-            <button><a href="#">Schedule</a></button>
-            <button><a href="#">Register</a></button>
-            <button><a href="#">Admin</a></button>
+            <button><a href="schedule.html">Schedule</a></button>
+            <button><a href="register.html">Register</a></button>
+            <button><a href="admin-login.html">Admin</a></button>
         </nav>
     </header>
 
-    <div class="heroHeader">
-        this is a hero header
-    </div>
+    <section class="heroHeader">
+        <div class="heroContent">
+            <p class="heroKicker">King Of The Court</p>
+            <h2>Rule The Court.<br>Own The Rally.</h2>
+            <p class="heroSubtitle">Tournament tracking dashboard.</p>
+            <div class="heroActions">
+                <a href="register.html" class="heroBtn heroBtnPrimary">Register now</a>
+            </div>
+        </div>
+    </section>
+
+    <nav class="mobileBottomNav" aria-label="Mobile navigation">
+        <a href="schedule.html" class="mobileNavItem">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M7 2v2M17 2v2M4 8h16M5 4h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1zM8 12h3M13 12h3M8 16h3"/>
+            </svg>
+            <span>Schedule</span>
+        </a>
+        <a href="index.html" class="mobileNavItem active">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 10.5 12 3l9 7.5M5 9.5V21h14V9.5M9 21v-6h6v6"/>
+            </svg>
+            <span>Home</span>
+        </a>
+        <a href="register.html" class="mobileNavItem">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M15 19v-1a4 4 0 0 0-4-4H7a4 4 0 0 0-4 4v1M9 10a4 4 0 1 0 0-8 4 4 0 0 0 0 8M19 8v6M16 11h6"/>
+            </svg>
+            <span>Register</span>
+        </a>
+    </nav>
 </body>
 </html>
