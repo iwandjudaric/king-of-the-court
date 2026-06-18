@@ -1,0 +1,9 @@
+.env
+.env.local
+test_login.php
+test_query.php
+.idea/
+.DS_Store
+*.swp
+*.swo
+*~
